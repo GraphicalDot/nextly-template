@@ -35,21 +35,17 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What chains does Pingbox support?",
+    answer: "For wallet discovery - Ethereum and polygon are supported, However, The plaform is deployed on Polygon network. We strive to support more layer2 scaling solutions by Q1 2023.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "What happens when I signup with my email id or phorn number, instead of web3 wallet? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Pingbox is using https://magic.link/ that generates a custodian wallet when you signup with your email or phone number.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Do I as a user have to specifically subscribe to every DAPP channel to receive notifications? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "If the Dapp with which you have interacted has created a channel on Pingbox, You will automatically become their channel subscriber and will receive every notification",
   },
 ];

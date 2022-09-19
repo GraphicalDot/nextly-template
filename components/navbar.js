@@ -3,13 +3,17 @@ import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
+  // const navigation = [
+  //   "Product",
+  //   "Features",
+  //   "Pricing",
+  //   "Company",
+  //   "Blog",
+  // ];
+
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
   ];
+
 
   return (
     <div className="w-full">
@@ -30,7 +34,7 @@ export default function Navbar() {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Pingbox</span>
                   </a>
                 </Link>
 

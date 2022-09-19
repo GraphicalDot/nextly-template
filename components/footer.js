@@ -5,19 +5,22 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    // "Product",
+    // "Features",
+    // "Pricing",
+    // "Company",
+    // "Blog",
   ];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const legal = [
+    // "Terms", 
+    // "Privacy", "Legal"
+  ];
   return (
     <div className="relative">
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <div>
+            {/* <div>
               {" "}
               <Link href="/">
                 <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
@@ -33,15 +36,15 @@ export default function Footer() {
                   <span>Nextly</span>
                 </a>
               </Link>
-            </div>
+            </div> */}
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            {/* <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
               Nextly is a free landing page & marketing website
               template for startups and indie projects. Its built with
               Next.js & TailwindCSS. And its completely open-source.
-            </div>
+            </div> */}
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -55,7 +58,7 @@ export default function Footer() {
                   height="44"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -116,8 +119,8 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a
+          Copyright © Pingbox {new Date().getFullYear()}.
+          {/* <a
             href="https://web3templates.com/"
             target="_blank"
             rel="noopener">
@@ -129,11 +132,11 @@ export default function Footer() {
             target="_blank"
             rel="noopener ">
             Glazestock
-          </a>
+          </a> */}
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      {/* <Backlink /> */}
     </div>
   );
 }
@@ -172,7 +175,7 @@ const Instagram = ({ size = 24 }) => (
 
 const Linkedin = ({ size = 24 }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://www.linkedin.com/company/pingbox/"
     width={size}
     height={size}
     viewBox="0 0 24 24"
@@ -184,7 +187,7 @@ const Linkedin = ({ size = 24 }) => (
 const Backlink = () => {
   return (
     <a
-      href="https://web3templates.com"
+      href="https://pingbox.xyz"
       target="_blank"
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300">
@@ -207,7 +210,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
+      {/* <span>Web3Templates</span> */}
     </a>
   );
 };

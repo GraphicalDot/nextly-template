@@ -11,46 +11,47 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Acquire new customers",
+  desc: "Acquiring new customers is tough, especially on web3 where a wallet address is the only available representation",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Find your customers",
+      desc: "Find wallet addresses on the basis of different parameters - NFT collections, total balance, Defi protocols, \
+        Average Tx price etc. You can use these filters to find your potential customers.",
       icon: <EmojiHappyIcon />,
     },
     {
       title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      desc: "Connect with potential customers via an on-chain promotion with rewards at the core.",
       icon: <ChartSquareBarIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Collect promotion metrics to drive future retention",
+      desc: "See real time results of your marketing campaigns and move beyond the post-campaign analysis that helps you improve before your next campaign!",
       icon: <CursorClickIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Engage with your customers",
+  desc: "You'll communicate with your consumers in a timely and relevant manner, enabling them to receive information at the moment they need it most",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Reach audiences when they want, where they want",
+      desc: "Deliver personalized one-to-one or one-to-many notifications to your customers with a single click - NFT Mints, Liquidation alert, Airdrops, Governanace proposals",
       icon: <DeviceMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Customers can reach out to you",
+      desc: "Your customers can get in touch with you directly on a encrypted secure channel",
       icon: <AdjustmentsIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Automated notifications",
+      desc: "Alert users about trending and relevant activities on your Dapp. Schedule notifications in advance, reaching users when they’re most likely to interact.",
       icon: <SunIcon />,
     },
   ],

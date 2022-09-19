@@ -9,15 +9,14 @@ export default function Hero() {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Free Landing Page Template for startups
+              Acquire and Engage with your customers
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+              Pingbox is a tool for Web3 applications to acquire new on-chain customers 
+              and engage with the existing customers.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
@@ -43,7 +42,7 @@ export default function Hero() {
                 </svg>
                 <span> View on Github</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
@@ -61,7 +60,7 @@ export default function Hero() {
         </div>
       </Container>
       <Container>
-        <div className="flex flex-col justify-center">
+        {/* <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-indigo-600">2000+</span>{" "}
             customers worldwide
@@ -84,7 +83,7 @@ export default function Hero() {
               <SonyLogo />
             </div>
           </div>
-        </div>
+        </div> */}
       </Container>
     </>
   );
